@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Upstream source checkouts are reproducible dependencies, not vendored copies.
+/Iosevka/
+/nerd-fonts/
+
+# Local tooling and intermediate output.
+/scripts/
+/dist-nerd/*.ttf
+/dist-nerd-test/
